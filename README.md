@@ -6,7 +6,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/4D4937/Libernet
 ```
 debian
 ``` bash
-wget -N --no-check-certificate https://github.com/4D4937/Libernet_build/raw/master/dc_d.sh && bash dc_d.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/4D4937/Libernet_build/master/dc_d.sh && bash dc_d.sh
 ```
 ### Node
 ubuntu
@@ -15,5 +15,5 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/4D4937/Libernet
 ```
 debian
 ``` bash
-wget -N --no-check-certificate https://github.com/4D4937/Libernet_build/raw/master/node_d.sh && bash node_d.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/4D4937/Libernet_build/master/node_d.sh && bash node_d.sh
 ```
