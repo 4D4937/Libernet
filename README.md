@@ -1,6 +1,6 @@
 # Libernet_build
 ### Data_Center
-#for ubuntu
+for ubuntu
 ``` bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/4D4937/Libernet_build/master/dc.sh && bash dc.sh
 ```
