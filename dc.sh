@@ -6,4 +6,4 @@ wget https://github.com/4D4937/Libernet/raw/master/N1
 chmod 777 N1
 read -p "port:" port
 clean
-./N1 $port -f -v
+./N1 -l $port -f -v
