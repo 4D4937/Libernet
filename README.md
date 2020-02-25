@@ -1,5 +1,4 @@
 # LIBER NETWORK
-![image](https://github.com/4D4937/Libernet/raw/master/liber.jpg)
 ### Data_Center
 ubuntu
 ``` bash
