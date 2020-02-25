@@ -5,5 +5,4 @@ apt install subversion build-essential libssl-dev autoconf -y
 wget https://github.com/4D4937/Libernet/raw/master/N1
 chmod 777 N1
 read -p "port:" port
-clean
 ./N1 -l $port -f -v
