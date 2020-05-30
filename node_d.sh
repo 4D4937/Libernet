@@ -7,3 +7,5 @@ chmod 777 N2_d
 read -p "local_ip:" ip1
 read -p "dc_ip:port:" ip2
 ./N2_d -a $ip1 -c liber -k liberplus -l $ip2
+iptables -A INPUT -p icmp --icmp-type 8 -s 0/0 -j DROP
+iptables -A INPUT -p icmp --icmp-type 8 -s 10.0.0.0/24 -j ACCEPT
